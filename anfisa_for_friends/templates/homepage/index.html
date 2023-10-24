@@ -1,7 +1,29 @@
 {% extends "base.html" %}
-{% block title %}
-  Анфиса для друзей. Главная
-{% endblock %}
+
+<head>    
+  {% block title %}
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="img/fav/fav.ico" type="image">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Блок title -->
+    <title>
+    Анфиса для друзей. Главная
+    </title>
+    <!-- Конец блока title -->      
+  {% endblock %} 
+</head>
+
 {% block content %}
-  <h1>Главная страница</h1>
+<body>
+  <main class="pt-5 my-5">       
+    <div class="container">
+      <!-- Блок content -->
+      <h1 class="pb-2 mb-0">Главная страница</h1>
+      <!-- Конец блока content -->
+    </div> 
+  </main>
+</body>
+  <script src="js/jquery-3.2.1.slim.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 {% endblock %}

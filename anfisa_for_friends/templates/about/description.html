@@ -1,7 +1,32 @@
 {% extends "base.html" %}
-{% block title %}
-  Анфиса для друзей. Описание проекта
-{% endblock %}
+<head>   
+  {% block title %} 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="img/fav/fav.ico" type="image">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <title>
+      Анфиса для друзей. О проекте
+  </title>  
+  {% endblock %}     
+</head>
+
 {% block content %}
-  <h1>Описание проекта</h1>
+<body>
+  
+  <main class="pt-5 my-5">       
+    <div class="container">
+      <!-- Блок content -->
+      <h1 class="pb-2 mb-0">О проекте</h1>
+      <p>
+        Каталог экзотических сортов мороженого.
+      </p>
+      <!-- Конец блока content -->
+    </div> 
+  </main>
+  
+</body>
+
+<script src="js/jquery-3.2.1.slim.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 {% endblock %}
